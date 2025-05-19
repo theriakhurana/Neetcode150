@@ -96,18 +96,18 @@ public:
         double ans = (arr[n/2] + arr[n/2 - 1])/2.0;
         return ans;
     }
-
-
-    int main(){
-        Solution s;
-        vector<int> nums1 = {1,3};
-        vector<int> nums2 = {2};
-        cout << s.findMedianSortedArrays(nums1, nums2) << endl; // Output: 2.0
-
-        nums1 = {1,2};
-        nums2 = {3,4};
-        cout << s.findMedianSortedArrays(nums1, nums2) << endl; // Output: 2.5
-
-        return 0;
-    }
 };
+
+
+int main(){
+    Solution s;
+    vector<int> nums1 = {1,3};
+    vector<int> nums2 = {2};
+    cout << s.findMedianSortedArrays(nums1, nums2) << endl; // Output: 2.0
+
+    nums1 = {1,2};
+    nums2 = {3,4};
+    cout << s.findMedianSortedArrays(nums1, nums2) << endl; // Output: 2.5
+
+    return 0;
+}
